@@ -9,11 +9,11 @@ data:
     - groups:
       - system:masters
       rolearn: arn:aws:iam::595369807937:role/UdacityFlaskDeployCBKubectlRole
-      username: build  
+      username: build
 kind: ConfigMap
 metadata:
   creationTimestamp: "2022-08-30T22:38:29Z"
   name: aws-auth
   namespace: kube-system
-  resourceVersion: "1579"
+  resourceVersion: "4406"
   uid: 09a9fb6d-fed6-4939-b488-c91e336ae871
